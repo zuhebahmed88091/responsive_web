@@ -1,0 +1,391 @@
+.underline{
+    /*background-color:whitesmoke;*/
+    text-align: center;
+    font-family: 'Arvo', serif;
+    font-size: 40px; 
+    padding: 20px 0;
+   
+
+}
+.underline::after{
+    content: ""; 
+    display: block; 
+    margin: 0 auto; 
+    width: 5%; 
+    padding-top: 10px; 
+    border-bottom: 2px solid #FF355E; 
+}
+/*navbar starts*/
+.section-padding{
+    padding-left: 60px;
+    padding-right: 60px;
+}
+@media(max-width:454px){
+    .section-padding{
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+}
+.menu a{
+    color:#6c757d;
+}    
+.menu .act-btn{
+    color: #FF355E;
+}
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,53,94, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  .custom-toggler.navbar-toggler {
+    border-color: #FF355E;
+  } 
+  /*navbar ends*/
+  /*template starts*/
+  .template h1{
+    font-family: 'Arvo', serif;
+  }
+  .template p{
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #adb5bd;
+  }
+  .template .button-shape{
+    background-color: white;
+    color: #FF355E;
+    border:2px solid #FF355E;
+    font-size: 18px;
+     border-radius: 30px;
+    
+  }
+  .template .first-btn{
+      background-color: #FF355E;
+      color: white;
+      border:2px solid #FF355E;
+    font-size: 18px;
+     border-radius: 30px;
+  }
+ .template img{
+   width: 100%;
+ }
+ .row-template{
+    background-repeat: no-repeat;
+    background-position: right;
+    background-image: url("../image/hero-area.svg");
+    background-size: cover;
+ }
+  /*@media (max-width:575px){
+      .image{
+          display: none;
+      }
+  }not working*/
+  /*template ends*/
+/*services start*/
+.card{
+    align-items: center;
+    box-shadow:1px 1px 25px 1px whitesmoke;
+    border: 0px solid;
+}
+.card-body h2{
+    font-family: 'Bitter', serif;
+    text-align: center;
+    font-weight: bold;
+    color: #495057;
+}
+.card-body p{
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #adb5bd;
+}
+/*services end*/
+/*details start*/
+.details h1{
+    font-family: 'Arvo', serif;
+  }
+  .details p{
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #adb5bd;
+  }
+  .details-btn button{
+    background-color: #FF355E;
+    color: white;
+    border:2px solid #FF355E;
+  font-size: 18px;
+   border-radius: 30px;
+  }
+  
+  .details img{
+    width: 100%;
+  }
+  /*details end*/
+  /*features start*/
+  .awesome-things{
+      /*border: 2px solid red;*/
+      box-shadow: 1px 1px 25px 1px whitesmoke;
+  }
+  .left-column h2{
+    font-family: 'Bitter', serif;
+    
+    color: #495057;
+    
+}
+.left-column p{
+    text-align: left;
+    
+    font-family: 'Noto Sans JP', sans-serif;
+    
+    
+    color: #adb5bd;
+}
+.right-column h2{
+    font-family: 'Bitter', serif;
+    
+    color: #495057;
+}
+.right-column p{
+    text-align: left;
+    
+    font-family: 'Noto Sans JP', sans-serif;
+    
+    
+    color: #adb5bd;
+}
+
+/*features end*/
+/*team starts*/
+.team{
+    box-shadow: 1px 1px 25px 1px white
+}
+
+.members-details h2{
+    font-family: 'Bitter', serif;
+    font-weight: bold;
+    color: #495057;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 25px;
+}
+.members-details h3{
+    font-family: 'Bitter', serif;
+    font-weight: 500;
+    color: #adb5bd;
+    padding-top: 20px;
+    font-size: 18px;
+    padding-left: 20px;
+}
+.members-details p{
+    font-family: 'Noto Sans JP', sans-serif;
+    padding-top: 20px;
+    font-size: 16px;
+    font-weight: 100px;
+    color: #adb5bd;
+    padding-left: 20px;
+}
+.members-details a{
+    padding-right: 22px;
+    padding-left: 20px;
+    
+    
+}
+.members-details img{
+    padding-top: 20px;
+}
+  /*team ends*/
+  /*pricing starts*/
+  .pricing p{
+        font-family: 'Noto Sans JP', sans-serif;
+        color: #adb5bd;
+  }
+  .pricing h2{
+    font-family: 'Bitter', serif;
+    color: #495057;
+    font-weight: bolder;
+  }
+  .pricing button{
+    background-color: #FF355E;
+    color: white;
+    border:2px solid #FF355E;
+    
+    border-radius: 30px;
+  }
+  /*pricing ends*/
+  /*review starts*/
+  .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+.carousel-indicators {
+    bottom: -40px;
+    padding-bottom: 20px;
+}
+.reviewer-rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    text-align: center;
+    
+  }
+  .reviewer-rating > span:hover:before,
+  .reviewer-rating > span:hover ~ span:before {
+     content: "\2605";
+     position: absolute;
+     left: 0;
+     color: #FF355E;
+  }
+  .reviewer-rating {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    text-align: center;
+  }
+  .reviewer-rating > span:hover:before,
+  .reviewer-rating > span:hover ~ span:before {
+     content: "\2605";
+     position: absolute;
+     left: 0;
+     color: #FF355E;
+  }
+  .reviewer-rating > span {
+    display: inline-block;
+    position: relative;
+    width: 1.1em;
+    font-size: 30px;
+    color: #FF355E;
+  }
+  .reviewer-rating > span:hover,
+  .reviewer-rating > span:hover ~ span {
+    color: transparent;
+  }
+  .review h2{
+    font-family: 'Bitter', serif;
+    font-weight: bolder;
+    color: #495057;
+  }
+  .review h3{
+    font-family: 'Bitter', serif;
+    color: #495057;
+    font-weight: bolder;
+}
+review p{
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #adb5bd;
+}
+  /*review ends*/
+  /*trial starts*/
+  .trial-button button{
+    background-color: #FF355E;
+    color: white;
+    border:2px solid #FF355E;
+    font-weight: bold;
+    width: 175px;
+    height: 50px;
+    border-radius: 30px;
+  }
+  .trial-writing h1{
+    font-family: 'Bitter', serif;
+    color: black;
+    font-weight: bolder;
+}
+.trial-writing p{
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #adb5bd;
+}
+  /*trial ends*/
+  /*contact starts*/
+  .name-email{
+    padding-bottom: 20px;
+}
+.name-email input[type="text"]{
+   
+    font-size: 20px;
+    padding: 10px;
+    
+}
+.name-email input[type="email"]{
+   
+    font-size: 20px;
+    padding: 10px;
+    
+}
+.subject{
+    padding-bottom: 20px;
+}
+.subject input[type="text"]{
+   width: 58%;
+   font-size: 20px;
+    padding: 10px;
+}
+.textarea-msg{
+    padding-bottom: 20px;
+}
+#textarea{
+    font-size: 20px;
+    padding: 10px;
+}
+.contact-button{
+    padding-bottom: 20px;
+}
+.contact-button button{
+    background-color: #FF355E;
+    color: white;
+    border:2px solid #FF355E;
+    font-weight: bold;
+    width: 175px;
+    height: 50px;
+    
+    border-radius: 30px;
+}
+  /*contact ends*/
+
+  /*footer starts*/
+  .footer-left-details p{
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #adb5bd;
+  }
+  .footer-products h2{
+    font-family: 'Bitter', serif;
+    text-align: center;
+    font-weight: bolder;
+    color: #495057;
+    
+}
+.footer-products p{
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align: center;
+    
+    color: #adb5bd;
+    
+}
+.footer-resources h2{
+    font-family: 'Bitter', serif;
+    text-align: center;
+    font-weight: bolder;
+    color: #495057;
+    
+}
+.footer-resources p{
+    font-family: 'Noto Sans JP', sans-serif;
+    text-align: center;
+    color: #adb5bd;
+    
+}
+.footer-contact h2{
+    font-family: 'Bitter', serif;
+    
+    font-weight: bolder;
+    color: #495057;
+    
+}
+.footer-contact p{
+    font-family: 'Noto Sans JP', sans-serif;
+    
+    
+    color: #adb5bd;
+    
+    
+}
+  /*footer ends*/
+  .last-top{
+      border-top: 2px solid #495057;
+  }
+  .last-top p{
+    font-family: 'Noto Sans JP', sans-serif;
+    
+    
+    color: #adb5bd;
+  }
